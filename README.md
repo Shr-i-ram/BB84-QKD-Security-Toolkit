@@ -154,7 +154,7 @@ Generate plots for:
 
 ---
 
-## Mini Project: Security Evaluation of the BB84 Quantum Key Distribution Protocol
+## Security Evaluation of the BB84 Quantum Key Distribution Protocol
 
 ### Objective
 
@@ -247,6 +247,15 @@ The project demonstrates how quantum mechanical principles provide intrinsic sec
 
 Through classical simulations, Qiskit-based quantum implementations, and noise-aware evaluations, the study illustrates how BB84 can detect eavesdropping attempts and maintain secure communication under realistic operating conditions.
 
+---
+
+## Publication & Report
+
+A detailed report documenting the methodology, implementation, experiments, and security analysis performed in this project is available below:
+
+📄 **[BB84 Security Analysis Report](BB84_Analysis.pdf)**
+
+The report contains the complete experimental evaluation, including attack comparisons, QBER measurements, noise analysis, and conclusions regarding BB84 protocol security.
 
 ---
 
