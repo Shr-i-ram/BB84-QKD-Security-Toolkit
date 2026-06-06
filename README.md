@@ -84,76 +84,6 @@ Quantum-Cryptography-BB84-Security-Analysis/
 
 ---
 
-## Features
-
-### BB84 Protocol Simulation
-
-Simulate secure key exchange between Alice and Bob using randomly generated bits and measurement bases.
-
-Features:
-
-* Random Bit Generation
-* Random Basis Selection
-* Key Sifting
-* Secure Key Extraction
-* QBER Computation
-
----
-
-### Eavesdropping Attacks
-
-Study the effect of adversarial behavior on communication security.
-
-Implemented Attacks:
-
-#### Intercept-Resend Attack
-
-Eve measures transmitted qubits and resends reconstructed states.
-
-#### Random Basis Attack
-
-Eve performs probabilistic measurements using randomly chosen bases.
-
-#### Extensible Attack Framework
-
-New attack models can easily be added through the attack interface.
-
----
-
-### Noise Modeling
-
-Investigate realistic quantum communication channels.
-
-Supported Models:
-
-* Depolarizing Noise
-* Channel Errors
-* Measurement Errors
-
----
-
-### Security Metrics
-
-Evaluate protocol robustness using:
-
-* Quantum Bit Error Rate (QBER)
-* Information Leakage
-* Key Agreement Accuracy
-* Detection Probability
-
----
-
-### Visualization Tools
-
-Generate plots for:
-
-* QBER vs Attack Probability
-* QBER vs Noise Strength
-* Security Comparisons
-* Protocol Performance Metrics
-
----
-
 ## Security Evaluation of the BB84 Quantum Key Distribution Protocol
 
 ### Objective
@@ -256,6 +186,77 @@ A detailed report documenting the methodology, implementation, experiments, and 
 📄 **[BB84 Security Analysis Report](BB84_Analysis.pdf)**
 
 The report contains the complete experimental evaluation, including attack comparisons, QBER measurements, noise analysis, and conclusions regarding BB84 protocol security.
+
+
+---
+
+## Features
+
+### BB84 Protocol Simulation
+
+Simulate secure key exchange between Alice and Bob using randomly generated bits and measurement bases.
+
+Features:
+
+* Random Bit Generation
+* Random Basis Selection
+* Key Sifting
+* Secure Key Extraction
+* QBER Computation
+
+---
+
+### Eavesdropping Attacks
+
+Study the effect of adversarial behavior on communication security.
+
+Implemented Attacks:
+
+#### Intercept-Resend Attack
+
+Eve measures transmitted qubits and resends reconstructed states.
+
+#### Random Basis Attack
+
+Eve performs probabilistic measurements using randomly chosen bases.
+
+#### Extensible Attack Framework
+
+New attack models can easily be added through the attack interface.
+
+---
+
+### Noise Modeling
+
+Investigate realistic quantum communication channels.
+
+Supported Models:
+
+* Depolarizing Noise
+* Channel Errors
+* Measurement Errors
+
+---
+
+### Security Metrics
+
+Evaluate protocol robustness using:
+
+* Quantum Bit Error Rate (QBER)
+* Information Leakage
+* Key Agreement Accuracy
+* Detection Probability
+
+---
+
+### Visualization Tools
+
+Generate plots for:
+
+* QBER vs Attack Probability
+* QBER vs Noise Strength
+* Security Comparisons
+* Protocol Performance Metrics
 
 ---
 
